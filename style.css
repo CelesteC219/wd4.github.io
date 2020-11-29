@@ -1,0 +1,40 @@
+body {
+    position: relative; 
+}
+li a {
+  padding: 10px 20px;
+  font-weight: 400;
+}
+.active{
+  background-color: aquamarine;
+}
+.mb-3{
+  background-color: bisque;
+  border: pink solid 2px;
+}
+.p-3 {
+  background-color: coral;
+}
+
+.col-sm-2 {
+  background-color: blueviolet;
+}
+.eyeglassess {
+  width: 80px;
+  height: 60px;
+  background-color: lightblue;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+}
+@keyframes example {
+  0%   {background-color:red; left:0px;}
+  80%  {background-color: yellow; left:500px;}
+}
+
+  /* #glasses {padding-top:50px;height:auto;color: #fff; background-color: #1E88E5;}
+  #services {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+  #contact {padding-top:50px;height:auto;color: #fff; background-color: #ff9800;}
+  #aboutus {padding-top:50px;height:auto;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:auto;color: #fff; background-color: #009688;} */
